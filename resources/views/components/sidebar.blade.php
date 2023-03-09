@@ -13,13 +13,13 @@
                 <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-                <li><a class="link_name">SmartPay Admin</a></li>
-                <li><a href="/smartpay/general-setup">General Setup</a></li>
-                <li><a href="/smartpay/hris-setup">HRIS Setup</a></li>
-                <li><a href="#">Timekeeping Setup</a></li>
-                <li><a href="#">Payroll Setup</a></li>
-                <li><a href="#">Government Mandated Setup</a></li>
-                <li><a href="#">Trip Setup</a></li>
+                <li class="forPageName"><a class="link_name">SmartPay Admin</a></li>
+                <li class="forPageName"><a href="/smartpay/general-setup">General Setup</a></li>
+                <li class="forPageName"><a href="/smartpay/hris-setup">HRIS Setup</a></li>
+                <li class="forPageName"><a href="#">Timekeeping Setup</a></li>
+                <li class="forPageName"><a href="#">Payroll Setup</a></li>
+                <li class="forPageName"><a href="#">Government Mandated Setup</a></li>
+                <li class="forPageName"><a href="#">Trip Setup</a></li>
             </ul>
         </li>
         <li>

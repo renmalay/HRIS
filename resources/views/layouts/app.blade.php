@@ -41,7 +41,7 @@
         <section class="home-section">
             <div class="home-content">
                 <i class='bx bx-menu'></i>
-                <span id="pageName">Renedels</span>
+                <span id="pageName"></span>
             </div>
             <main class="px-3">
                 @yield('content')
