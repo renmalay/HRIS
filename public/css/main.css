@@ -267,13 +267,12 @@ button {
 
 /* General Setup CSS */
 .general-setup-container {
-  height: 500px;
-  max-height: 500px;
+  height: 650px;
+  max-height: 650px;
 }
 
 .general-setup-row {
-  height: 550px;
-  max-height: 550px;
+  position: relative;
 }
 
 .general-setup-container .general-setup-navbar-col {
@@ -292,9 +291,18 @@ button {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-
+.general-setup-navbar-col {
+  height: 640px;
+  max-height: 640px;
+  position: relative;
+  overflow-y: auto;
+  direction: rtl;
+}
 
 .general-setup-col {
+  height: 650px;
+  max-height: 650px;
+  position: relative;
   border-radius: 5px;
   margin-right: 12px;
   background-color: white;
@@ -379,3 +387,10 @@ button {
  }
  
 /* ...... */
+
+
+
+.top-navbar-bg {
+  background-color: white;
+  padding: 10px;
+}

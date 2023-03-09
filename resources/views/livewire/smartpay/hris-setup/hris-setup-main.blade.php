@@ -3,7 +3,6 @@
     <div id="main">
         <div id="contentContainer">
             <div class="hris-setup-container mb-2">
-                
                 <div class="row hris-setup-row px-0">
                     <div class="col-2 hris-setup-navbar-col px-0 overflow-auto" id="custom-scroll">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -89,69 +88,118 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-section" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-section" role="tabpanel"
                                 aria-labelledby="v-pills-section-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.section.section')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-job-category" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-job-category" role="tabpanel"
                                 aria-labelledby="v-pills-job-category-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.job-category.job-category')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-labor" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-labor" role="tabpanel"
                                 aria-labelledby="v-pills-labor-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.labor.labor')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-position" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-position" role="tabpanel"
                                 aria-labelledby="v-pills-position-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.position.position')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-employee-batch" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-employee-batch" role="tabpanel"
                                 aria-labelledby="v-pills-employee-batch-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.employee-batch.employee-batch')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-leave-master-file" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-leave-master-file" role="tabpanel"
                                 aria-labelledby="v-pills-leave-master-file-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.leave-master-file.leave-master-file')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-additional-earning" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-additional-earning" role="tabpanel"
                                 aria-labelledby="v-pills-additional-earning-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.additional-earning.additional-earning')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-approver-setup" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-approver-setup" role="tabpanel"
                                 aria-labelledby="v-pills-approver-setup-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.approver-setup.approver-setup')
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade show active" id="v-pills-violation-master-file" role="tabpanel"
+                            <div class="tab-pane fade" id="v-pills-violation-master-file" role="tabpanel"
                                 aria-labelledby="v-pills-violation-master-file-tab" tabindex="0">
                                 <div class="p-2">
                                     @livewire('smartpay.hris-setup.violation-master-file.violation-master-file')
                                 </div>
                             </div>
                             
+                            <div class="tab-pane fade" id="v-pills-sanction-type-master-file" role="tabpanel"
+                                aria-labelledby="v-pills-sanction-type-master-file-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.sanction-type-master-file.sanction-type-master-file')
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-violation-description-master-file" role="tabpanel"
+                                aria-labelledby="v-pills-violation-description-master-file-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.violation-description-master-file.violation-description-master-file')
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-issuer-master-file" role="tabpanel"
+                                aria-labelledby="v-pills-issuer-master-file-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.issuer-master-file.issuer-master-file')
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-requirements-master-file" role="tabpanel"
+                                aria-labelledby="v-pills-requirements-master-file-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.requirements-master-file.requirements-master-file')
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-rate-reason" role="tabpanel"
+                                aria-labelledby="v-pills-rate-reason-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.rate-reason.rate-reason')
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-employee-status" role="tabpanel"
+                                aria-labelledby="v-pills-employee-status-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.employee-status.employee-status')
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-recurring-deduction" role="tabpanel"
+                                aria-labelledby="v-pills-recurring-deduction-tab" tabindex="0">
+                                <div class="p-2">
+                                    @livewire('smartpay.hris-setup.recurring-deduction.recurring-deduction')
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 

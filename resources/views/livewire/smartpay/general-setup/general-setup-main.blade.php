@@ -3,11 +3,8 @@
     <div id="main">
         <div id="contentContainer">
             <div class="general-setup-container mb-2">
-                <div>
-                    <h1>General Setup</h1>
-                </div>
                 <div class="row general-setup-row px-0">
-                    <div class="col-2 general-setup-navbar-col px-0 overflow-auto">
+                    <div class="col-2 general-setup-navbar-col px-0 overflow-auto" id="custom-scroll">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <button class="nav-link text-start active" id="v-pills-global-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-global-settings" type="button" role="tab"
@@ -55,7 +52,7 @@
                                 aria-selected="false">Users</button>
                         </div>
                     </div>
-                    <div class="col general-setup-col overflow-auto">
+                    <div class="col general-setup-col overflow-auto" id="custom-scroll">
                         <div class="tab-content" id="v-pills-tabContent">
 
                             <div class="tab-pane fade show active" id="v-pills-global-settings" role="tabpanel"
