@@ -4,7 +4,7 @@
         <span class="logo_name">HRIS</span>
     </div>
     <ul class="nav-links">
-        <li>
+        <li class="navHeaders">
             <div class="icon-link">
                 <a href="#">
                     <i class='bx bx-desktop'></i>
@@ -22,7 +22,7 @@
                 <li class="forPageName"><a href="#">Trip Setup</a></li>
             </ul>
         </li>
-        <li>
+        <li class="navHeaders">
             <div class="icon-link">
                 <a href="#">
                     <i class='bx bx-user'></i>

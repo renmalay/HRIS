@@ -15,15 +15,29 @@ $(document).on('click', '.bx-menu', function(){
 
 
 // For the sidebar sub menu arrow
-$(document).ready(function(){
-  let arrow = document.querySelectorAll(".arrow");
-  for (var i = 0; i < arrow.length; i++) {
-    arrow[i].addEventListener("click", (e)=>{
-   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
-   arrowParent.classList.toggle("showMenu");
-    });
+// $(document).ready(function(){
+//   let arrow = document.querySelectorAll(".arrow");
+//   for (var i = 0; i < arrow.length; i++) {
+//     arrow[i].addEventListener("click", (e)=>{
+//    let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+//    arrowParent.classList.toggle("showMenu");
+//     });
+//   }
+// });
+
+$(document).on('click','.navHeaders',function(){
+  try{    
+    if($(this).hasClass('showMenu')){
+      $('.navHeaders').removeClass('showMenu');
+    }else{
+      $('.navHeaders').removeClass('showMenu');
+      $(this).addClass('showMenu');
+    }
+    
+  }catch(error){
+    console.log(error);
   }
-});
+})
 
 
 // let sidebar = document.querySelector(".sidebar");
