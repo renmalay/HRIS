@@ -2,11 +2,11 @@
     <div class="p-2">
         <div class="row">
             <div class="col">
-                <div class="row pt-2">
+                {{-- <div class="row pt-2">
                     <div class="col">
                         <h4>Global Setting</h4>
                     </div>
-                </div>
+                </div> --}}
                 <div class="row mb-3">
                     <label for="companyName" class="col-sm-2 col-form-label">Company Name</label>
                     <div class="col-sm-10">

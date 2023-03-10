@@ -5,6 +5,7 @@ use App\Http\Livewire\Smartpay\GeneralSetup\GlobalSettings;
 use App\Http\Livewire\Smartpay\GeneralSetup\Location;
 use App\Http\Livewire\Smartpay\GeneralSetup\GeneralSetupMain;
 use App\Http\Livewire\Smartpay\HrisSetup\HrisSetupMain;
+use App\Http\Livewire\Hris\PersonalInformation\Identity;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,8 +28,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/smartpay/general-setup', GeneralSetupMain::class);
 
-
 Route::get('/smartpay/hris-setup', HrisSetupMain::class);
+
+
+
+
+Route::get('/hris/personal-information', Identity::class);
+
 
 // Route::get('/smartpay/global', GlobalSettings::class);
 // Route::get('/smartpay/location', Location::class);

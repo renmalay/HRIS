@@ -31,11 +31,11 @@
                 <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-                <li><a class="link_name">HRIS</a></li>
-                <li><a href="#">Personal Information</a></li>
-                <li><a href="#">Upload Earnings and Deduction</a></li>
-                <li><a href="#">Rate Change</a></li>
-                <li><a href="#">Sanction Form Entry</a></li>
+                <li class="forPageName"><a class="link_name">HRIS</a></li>
+                <li class="forPageName"><a href="/hris/personal-information">Personal Information</a></li>
+                <li class="forPageName"><a href="#">Upload Earnings and Deduction</a></li>
+                <li class="forPageName"><a href="#">Rate Change</a></li>
+                <li class="forPageName"><a href="#">Sanction Form Entry</a></li>
             </ul>
         </li>
         <li class="navHeaders">
