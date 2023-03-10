@@ -43,8 +43,8 @@
                                 data-bs-target="#v-pills-data-management" type="button" role="tab"
                                 aria-controls="v-pills-data-management" aria-selected="false">Data Management</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-users-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-users" type="button" role="tab" aria-controls="v-pills-users"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-users-main-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-users-main" type="button" role="tab" aria-controls="v-pills-users-main"
                                 aria-selected="false">Users</button>
                         </div>
                     </div>
@@ -114,10 +114,10 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-users" role="tabpanel"
-                                aria-labelledby="v-pills-users-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-users-main" role="tabpanel"
+                                aria-labelledby="v-pills-users-main-tab" tabindex="0">
                                 <div class="px-2">
-                                    @livewire('smartpay.general-setup.users.users')
+                                    @livewire('smartpay.general-setup.users.users-main')
                                 </div>
                             </div>
 

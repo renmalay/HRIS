@@ -5,9 +5,8 @@
                 <div class="row mt-2 mb-3">
                     <div class="col">
                         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                            <button type="button" class="btn btn-primary">New</button>
-                            <button type="button" class="btn btn-secondary">Edit</button>
-                            <button type="button" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-primary">Add</button>
+                            <button type="button" class="btn btn-danger">Reset</button>
                         </div>
                     </div>
                 </div>
@@ -17,16 +16,13 @@
                             <thead>
                                 <tr>
                                     <th>
-                                        User Id
+                                        Group Id
                                     </th>
                                     <th>
-                                        Name
+                                        Group Name
                                     </th>
                                     <th>
-                                        Group
-                                    </th>
-                                    <th>
-                                        Role
+                                        Menu Id
                                     </th>
                                 </tr>
                             </thead>
@@ -41,14 +37,8 @@
                                     <td>
                                         1
                                     </td>
-                                    <td>
-                                        1
-                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        2
-                                    </td>
                                     <td>
                                         2
                                     </td>
