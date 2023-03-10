@@ -45,7 +45,6 @@ $(document).on('click', '.bx-menu', function(){
 
 $(document).on('click','.icon-link',function(){
   try{
-    console.log($('.icon-link').index(this))
     if($($('.navHeaders')[$('.icon-link').index(this)]).hasClass('showMenu')){
       $($('.navHeaders')[$('.icon-link').index(this)]).removeClass('showMenu');
     }else{
