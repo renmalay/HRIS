@@ -1,7 +1,7 @@
 <div>
     <div class="row">
         <div class="col">
-            <div class="position-sticky top-0 top-navbar-bg">
+            <div class="position-sticky top-0 top-navbar-bg px-2 pt-2 pb-0">
                 <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="company-info-tab" data-bs-toggle="tab"
@@ -31,22 +31,30 @@
 
                 <div class="tab-pane fade show active" id="company-info-tab-pane" role="tabpanel"
                     aria-labelledby="company-info-tab" tabindex="0">
-                    @livewire('smartpay.general-setup.global-settings.company-info')
+                    <div class="row main-bg">
+                        @livewire('smartpay.general-setup.global-settings.company-info')
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="payroll-global-setting-tab-pane" role="tabpanel"
                     aria-labelledby="payroll-global-setting-tab" tabindex="0">
-                    @livewire('smartpay.general-setup.global-settings.payroll-global-setting')
+                    <div class="row">
+                        @livewire('smartpay.general-setup.global-settings.payroll-global-setting')
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="timekeeping-global-setting-tab-pane" role="tabpanel" aria-labelledby="timekeeping-global-setting-tab"
                     tabindex="0">
-                    @livewire('smartpay.general-setup.global-settings.timekeeping-global-setting')
+                    <div class="row">
+                        @livewire('smartpay.general-setup.global-settings.timekeeping-global-setting')
+                    </div>
                 </div>
 
                 <div class="tab-pane fade" id="kiosk-and-employee-setting-tab-pane" role="tabpanel" aria-labelledby="kiosk-and-employee-setting-tab"
                     tabindex="0">
-                    @livewire('smartpay.general-setup.global-settings.kiosk-and-employee-setting')
+                    <div class="row">
+                        @livewire('smartpay.general-setup.global-settings.kiosk-and-employee-setting')
+                    </div>
                 </div>
             </div>
         </div>

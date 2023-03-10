@@ -57,70 +57,70 @@
 
                             <div class="tab-pane fade show active" id="v-pills-global-settings" role="tabpanel"
                                 aria-labelledby="v-pills-global-settings-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.global-settings.global-settings')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-location" role="tabpanel"
                                 aria-labelledby="v-pills-location-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.location.location')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-house-bank-accounts" role="tabpanel"
                                 aria-labelledby="v-pills-house-bank-accounts-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.house-bank-accounts.house-bank-accounts')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-bank" role="tabpanel"
                                 aria-labelledby="v-pills-bank-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.bank.bank')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-holiday-setup" role="tabpanel"
                                 aria-labelledby="v-pills-holiday-setup-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.holiday-setup.holiday-setup')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-user-restriction-access" role="tabpanel"
                                 aria-labelledby="v-pills-user-restriction-access-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.user-restriction-access.user-restriction-access')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-menu-authorizations" role="tabpanel"
                                 aria-labelledby="v-pills-menu-authorizations-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.menu-authorizations.menu-authorizations')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-synchronization-access" role="tabpanel"
                                 aria-labelledby="v-pills-synchronization-access-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.synchronization-access.synchronization-access')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-data-management" role="tabpanel"
                                 aria-labelledby="v-pills-data-management-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.data-management.data-management')
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-users" role="tabpanel"
                                 aria-labelledby="v-pills-users-tab" tabindex="0">
-                                <div class="p-2">
+                                <div class="px-2">
                                     @livewire('smartpay.general-setup.users.users')
                                 </div>
                             </div>

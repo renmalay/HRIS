@@ -393,4 +393,9 @@ button {
 .top-navbar-bg {
   background-color: white;
   padding: 10px;
+  z-index: 10;
 }
+
+/* .main-bg {
+  background: #e4e9f7;
+} */
