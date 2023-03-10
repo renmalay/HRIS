@@ -4,9 +4,9 @@
             <div class="position-sticky top-0 top-navbar-bg px-2 pt-2 pb-0">
                 <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="user-austhorizations-tab" data-bs-toggle="tab"
-                            data-bs-target="#user-austhorizations-tab-pane" type="button" role="tab"
-                            aria-controls="user-austhorizations-tab-pane" aria-selected="true">User Authorizations</button>
+                        <button class="nav-link active" id="user-authorizations-tab" data-bs-toggle="tab"
+                            data-bs-target="#user-authorizations-tab-pane" type="button" role="tab"
+                            aria-controls="user-authorizations-tab-pane" aria-selected="true">User Authorizations</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="group-authorizations-tab" data-bs-toggle="tab"
@@ -18,8 +18,8 @@
             
             <div class="tab-content" id="myTabContent">
 
-                <div class="tab-pane fade show active" id="user-austhorizations-tab-pane" role="tabpanel"
-                    aria-labelledby="user-austhorizations-tab" tabindex="0">
+                <div class="tab-pane fade show active" id="user-authorizations-tab-pane" role="tabpanel"
+                    aria-labelledby="user-authorizations-tab" tabindex="0">
                     <div class="row main-bg">
                         @livewire('smartpay.general-setup.menu-authorizations.user-authorizations')
                     </div>
