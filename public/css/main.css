@@ -399,3 +399,14 @@ button {
 /* .main-bg {
   background: #e4e9f7;
 } */
+
+
+/*naps additional for sidebar manipulation*/
+
+.navHeadersBg{
+  background: #0A2647;
+}
+
+.forPageNameBg{
+  background: #144272;
+}

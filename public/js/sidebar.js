@@ -1,4 +1,22 @@
 // For the sidebar burger menu
+
+$(document).ready(function(){
+  try{
+   $('.navHeaders').each(function(){
+    const parent = $(this);
+    $('.forPageName a',this).each(function(){
+      if($(this).attr('href') == window.location.pathname){
+        parent.addClass('showMenu');
+        parent.addClass('navHeadersBg');
+        $(this).addClass('forPageNameBg');
+      }
+    })
+   })
+  }catch(error){
+    console.log(error);
+  }
+});
+
 $(document).on('click', '.bx-menu', function(){
   // console.log('hello');
   if($('.sidebar').hasClass('close')){
@@ -25,14 +43,23 @@ $(document).on('click', '.bx-menu', function(){
 //   }
 // });
 
-$(document).on('click','.navHeaders',function(){
+$(document).on('click','.icon-link',function(){
   try{
-    if($(this).hasClass('showMenu')){
-      $('.navHeaders').removeClass('showMenu');
+    console.log($('.icon-link').index(this))
+    if($($('.navHeaders')[$('.icon-link').index(this)]).hasClass('showMenu')){
+      $($('.navHeaders')[$('.icon-link').index(this)]).removeClass('showMenu');
     }else{
       $('.navHeaders').removeClass('showMenu');
-      $(this).addClass('showMenu');
+      $($('.navHeaders')[$('.icon-link').index(this)]).addClass('showMenu');
     }
+    
+  }catch(error){
+    console.log(error);
+  }
+})
+
+$(document).on('click','.forPageName',function(){
+  try{
     
   }catch(error){
     console.log(error);
