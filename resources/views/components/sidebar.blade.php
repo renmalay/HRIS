@@ -38,6 +38,74 @@
                 <li><a href="#">Sanction Form Entry</a></li>
             </ul>
         </li>
+        <li class="navHeaders">
+            <div class="icon-link">
+                <a href="#">
+                    <i class='bx bx-time'></i>
+                    <span class="link_name"> Time Keeping</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name">Time Keeping</a></li>
+                <li><a href="#">Schedule Auto Setup</a></li>
+                <li><a href="#">Employee Schedule Assigned</a></li>
+                <li><a href="#">Uploading MDB Files</a></li>
+                <li><a href="#">Attendance Generation</a></li>
+                <li><a href="#">Generated Per Day & Set-up Rate</a></li>
+                <li><a href="#">DTR Batch Processing</a></li>
+                <li><a href="#">D.T.R Uploading</a></li>
+                <li><a href="#">A.S.S Uploading</a></li>
+                <li><a href="#">Timekeeping Update</a></li>
+            </ul>
+        </li>
+        <li class="navHeaders">
+            <div class="icon-link">
+                <a href="#">
+                    <i class='bx bx-transfer-alt'></i>
+                    <span class="link_name"> Tripping</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name">Tripping</a></li>
+                <li><a href="#">Trip Transaction</a></li>
+                <li><a href="#">Trip Summary Sheet</a></li>
+            </ul>
+        </li>
+        <li class="navHeaders">
+            <div class="icon-link">
+                <a href="#">
+                    <i class='bx bx-file'></i>
+                    <span class="link_name"> Payroll</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name">Payroll</a></li>
+                <li><a href="#">Payroll Process</a></li>
+                <li><a href="#">Payroll Admin Process</a></li>
+                <li><a href="#">Payroll Bank Generated</a></li>
+                <li><a href="#">Payroll BIR Generated</a></li>
+            </ul>
+        </li>
+        <li class="navHeaders">
+            <div class="icon-link">
+                <a href="#">
+                    <i class='bx bxs-report'></i>
+                    <span class="link_name"> Reports</span>
+                </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+            </div>
+            <ul class="sub-menu">
+                <li><a class="link_name">Reports</a></li>
+                <li><a href="#">HR Reports</a></li>
+                <li><a href="#">TimeKeeping Reports</a></li>
+                <li><a href="#">Payroll Reports</a></li>
+                <li><a href="#">Statutory Reports</a></li>
+                <li><a href="#">13th Month Reports</a></li>
+            </ul>
+        </li>
         {{-- <li>
             <a href="#">
                 <i class='bx bx-home'></i>
