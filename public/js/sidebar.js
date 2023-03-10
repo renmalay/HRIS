@@ -26,7 +26,7 @@ $(document).on('click', '.bx-menu', function(){
 // });
 
 $(document).on('click','.navHeaders',function(){
-  try{    
+  try{
     if($(this).hasClass('showMenu')){
       $('.navHeaders').removeClass('showMenu');
     }else{
@@ -38,6 +38,10 @@ $(document).on('click','.navHeaders',function(){
     console.log(error);
   }
 })
+
+$(document).on('click','.forPageName',function(){
+  sessionStorage.removeItem('tabToggled');
+});
 
 
 // let sidebar = document.querySelector(".sidebar");

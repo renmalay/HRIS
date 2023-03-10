@@ -6,48 +6,44 @@
                 <div class="row general-setup-row px-0">
                     <div class="col-2 general-setup-navbar-col px-0 overflow-auto" id="custom-scroll">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <button class="nav-link text-start active" id="v-pills-global-settings-tab" data-bs-toggle="pill"
+                            <button id="gblSettingsTab" class="genSetupBtns nav-link text-start active" id="v-pills-global-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-global-settings" type="button" role="tab"
-                                aria-controls="v-pills-global-settings" aria-selected="true">Global
-                                Settings</button>
+                                aria-controls="v-pills-global-settings" aria-selected="true">Global Settings</button>
 
-                            <button class="nav-link text-start" id="v-pills-location-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-location-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-location" type="button" role="tab"
                                 aria-controls="v-pills-location" aria-selected="false">Location</button>
 
-                            <button class="nav-link text-start" id="v-pills-house-bank-accounts-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-house-bank-accounts-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-house-bank-accounts" type="button" role="tab"
-                                aria-controls="v-pills-house-bank-accounts" aria-selected="false">House
-                                Bank Accounts</button>
+                                aria-controls="v-pills-house-bank-accounts" aria-selected="false">House Bank Accounts</button>
 
-                            <button class="nav-link text-start" id="v-pills-bank-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-bank-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-bank" type="button" role="tab" aria-controls="v-pills-bank"
                                 aria-selected="false">Bank</button>
 
-                            <button class="nav-link text-start" id="v-pills-holiday-setup-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-holiday-setup-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-holiday-setup" type="button" role="tab"
                                 aria-controls="v-pills-holiday-setup" aria-selected="false">Holiday Setup</button>
 
-                            <button class="nav-link text-start" id="v-pills-user-restriction-access-tab"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-user-restriction-access-tab"
                                 data-bs-toggle="pill" data-bs-target="#v-pills-user-restriction-access" type="button"
-                                role="tab" aria-controls="v-pills-user-restriction-access" aria-selected="false">User
-                                Restriction Access</button>
+                                role="tab" aria-controls="v-pills-user-restriction-access" aria-selected="false">User Restriction Access</button>
 
-                            <button class="nav-link text-start" id="v-pills-menu-authorizations-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-menu-authorizations-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-menu-authorizations" type="button" role="tab"
-                                aria-controls="v-pills-menu-authorizations" aria-selected="false">Menu
-                                Authorizations</button>
+                                aria-controls="v-pills-menu-authorizations" aria-selected="false">Menu Authorizations</button>
 
-                            <button class="nav-link text-start" id="v-pills-synchronization-access-tab"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-synchronization-access-tab"
                                 data-bs-toggle="pill" data-bs-target="#v-pills-synchronization-access" type="button"
                                 role="tab" aria-controls="v-pills-synchronization-access"
                                 aria-selected="false">Synchronization Access</button>
 
-                            <button class="nav-link text-start" id="v-pills-data-management-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-data-management-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-data-management" type="button" role="tab"
                                 aria-controls="v-pills-data-management" aria-selected="false">Data Management</button>
 
-                            <button class="nav-link text-start" id="v-pills-users-tab" data-bs-toggle="pill"
+                            <button class="genSetupBtns nav-link text-start" id="v-pills-users-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-users" type="button" role="tab" aria-controls="v-pills-users"
                                 aria-selected="false">Users</button>
                         </div>
