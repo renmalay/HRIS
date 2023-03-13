@@ -13,6 +13,15 @@ $(document).ready(function(){
                 return pageName = s;
             }
         })
+
+        if(sessionStorage.getItem('tabToggled')){
+            $('.insideNavs').each(function(){
+                if($(this).text() == sessionStorage.getItem('tabToggled')){
+                    $(this).trigger('click');
+                    return;
+                }
+            })
+        }
         
        
         $('#pageName').text(pageName);
@@ -20,3 +29,11 @@ $(document).ready(function(){
         console.log(error);
     }
 }); 
+
+
+$(document).on('click','.insideNavs',function(){
+    
+    sessionStorage.setItem('tabToggled',$(this).text())
+    
+
+});

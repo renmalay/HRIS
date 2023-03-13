@@ -10,40 +10,40 @@
                                 data-bs-target="#v-pills-global-settings" type="button" role="tab"
                                 aria-controls="v-pills-global-settings" aria-selected="true">Global Settings</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-location-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-location-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-location" type="button" role="tab"
                                 aria-controls="v-pills-location" aria-selected="false">Location</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-house-bank-accounts-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-house-bank-accounts-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-house-bank-accounts" type="button" role="tab"
                                 aria-controls="v-pills-house-bank-accounts" aria-selected="false">House Bank Accounts</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-bank-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-bank-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-bank" type="button" role="tab" aria-controls="v-pills-bank"
                                 aria-selected="false">Bank</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-holiday-setup-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-holiday-setup-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-holiday-setup" type="button" role="tab"
                                 aria-controls="v-pills-holiday-setup" aria-selected="false">Holiday Setup</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-user-restriction-access-tab"
+                            <button class="insideNavs nav-link text-start" id="v-pills-user-restriction-access-tab"
                                 data-bs-toggle="pill" data-bs-target="#v-pills-user-restriction-access" type="button"
                                 role="tab" aria-controls="v-pills-user-restriction-access" aria-selected="false">User Restriction Access</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-menu-authorizations-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-menu-authorizations-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-menu-authorizations" type="button" role="tab"
                                 aria-controls="v-pills-menu-authorizations" aria-selected="false">Menu Authorizations</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-synchronization-access-tab"
+                            <button class="insideNavs nav-link text-start" id="v-pills-synchronization-access-tab"
                                 data-bs-toggle="pill" data-bs-target="#v-pills-synchronization-access" type="button"
                                 role="tab" aria-controls="v-pills-synchronization-access"
                                 aria-selected="false">Synchronization Access</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-data-management-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-data-management-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-data-management" type="button" role="tab"
                                 aria-controls="v-pills-data-management" aria-selected="false">Data Management</button>
 
-                            <button class="genSetupBtns nav-link text-start" id="v-pills-users-main-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-users-main-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-users-main" type="button" role="tab" aria-controls="v-pills-users-main"
                                 aria-selected="false">Users</button>
                         </div>

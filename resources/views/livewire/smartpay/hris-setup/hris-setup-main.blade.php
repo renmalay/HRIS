@@ -6,72 +6,72 @@
                 <div class="row hris-setup-row px-0">
                     <div class="col-2 hris-setup-navbar-col px-0 overflow-auto" id="custom-scroll">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <button class="nav-link text-start active" id="v-pills-department-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start active" id="v-pills-department-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-department" type="button" role="tab"
                                 aria-controls="v-pills-department" aria-selected="true">Department</button>
 
-                            <button class="nav-link text-start" id="v-pills-section-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-section-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-section" type="button" role="tab"
                                 aria-controls="v-pills-section" aria-selected="true">Section</button>
 
-                            <button class="nav-link text-start" id="v-pills-job-category-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-job-category-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-job-category" type="button" role="tab"
                                 aria-controls="v-pills-job-category" aria-selected="true">Job Category</button>
 
-                            <button class="nav-link text-start" id="v-pills-labor-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-labor-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-labor" type="button" role="tab" aria-controls="v-pills-labor"
                                 aria-selected="true">Labor</button>
 
-                            <button class="nav-link text-start" id="v-pills-position-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-position-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-position" type="button" role="tab"
                                 aria-controls="v-pills-position" aria-selected="true">Position</button>
 
-                            <button class="nav-link text-start" id="v-pills-employee-batch-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-employee-batch-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-employee-batch" type="button" role="tab"
                                 aria-controls="v-pills-employee-batch" aria-selected="true">Employee Batch</button>
 
-                            <button class="nav-link text-start" id="v-pills-leave-master-file-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-leave-master-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-leave-master-file" type="button" role="tab"
                                 aria-controls="v-pills-leave-master-file" aria-selected="true">Leave Master File</button>
 
-                            <button class="nav-link text-start" id="v-pills-additional-earning-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-additional-earning-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-additional-earning" type="button" role="tab"
                                 aria-controls="v-pills-additional-earning" aria-selected="true">Additional Earning</button>
 
-                            <button class="nav-link text-start" id="v-pills-approver-setup-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-approver-setup-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-approver-setup" type="button" role="tab"
                                 aria-controls="v-pills-approver-setup" aria-selected="true">Approver Setup</button>
 
-                            <button class="nav-link text-start" id="v-pills-violation-master-file-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-violation-master-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-violation-master-file" type="button" role="tab"
                                 aria-controls="v-pills-violation-master-file" aria-selected="true">Violation Master
                                 File</button>
 
-                            <button class="nav-link text-start" id="v-pills-sanction-type-master-file-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-sanction-type-master-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-sanction-type-master-file" type="button" role="tab"
                                 aria-controls="v-pills-sanction-type-master-file" aria-selected="true">Sanction Type Master File</button>
 
-                            <button class="nav-link text-start" id="v-pills-violation-description-master-file-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-violation-description-master-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-violation-description-master-file" type="button" role="tab"
                                 aria-controls="v-pills-violation-description-master-file" aria-selected="true">Violation Description Master File</button>
 
-                            <button class="nav-link text-start" id="v-pills-issuer-master-file-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-issuer-master-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-issuer-master-file" type="button" role="tab"
                                 aria-controls="v-pills-issuer-master-file" aria-selected="true">Issuer Master File</button>
 
-                            <button class="nav-link text-start" id="v-pills-requirements-master-file-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-requirements-master-file-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-requirements-master-file" type="button" role="tab"
                                 aria-controls="v-pills-requirements-master-file" aria-selected="true">Requirements Master File</button>
 
-                            <button class="nav-link text-start" id="v-pills-rate-reason-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-rate-reason-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-rate-reason" type="button" role="tab"
                                 aria-controls="v-pills-rate-reason" aria-selected="true">Rate Reason</button>
 
-                            <button class="nav-link text-start" id="v-pills-emplyee-status-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-emplyee-status-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-emplyee-status" type="button" role="tab"
                                 aria-controls="v-pills-emplyee-status" aria-selected="true">Employee Status</button>
 
-                            <button class="nav-link text-start" id="v-pills-recurring-deduction-tab" data-bs-toggle="pill"
+                            <button class="insideNavs nav-link text-start" id="v-pills-recurring-deduction-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-recurring-deduction" type="button" role="tab"
                                 aria-controls="v-pills-recurring-deduction" aria-selected="true">Recurring Deduction</button>
 
