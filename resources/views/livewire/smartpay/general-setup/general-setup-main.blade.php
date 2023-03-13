@@ -5,8 +5,8 @@
             <div class="general-setup-container mb-2">
                 <div class="row general-setup-row px-0">
                     <div class="col-2 general-setup-navbar-col px-0 overflow-auto" id="custom-scroll">
-                        <div class="insideNavs nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <button id="gblSettingsTab" class="genSetupBtns nav-link text-start active" id="v-pills-global-settings-tab" data-bs-toggle="pill"
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button id="gblSettingsTab" class="insideNavs  nav-link text-start active" id="v-pills-global-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-global-settings" type="button" role="tab"
                                 aria-controls="v-pills-global-settings" aria-selected="true">Global Settings</button>
 
