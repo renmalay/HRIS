@@ -120,11 +120,11 @@
 }
 .sidebar .nav-links li.showMenu .sub-menu li{
   width: 100%;
-  /* padding-left: 40px; */
+  padding-left: 40px;
 }
-.sidebar .nav-links li.showMenu .sub-menu li a{
-  padding-left: 70px;
-}
+/* .sidebar .nav-links li.showMenu .sub-menu li a{
+  padding-left: 10px;
+} */
 .sidebar .nav-links li .sub-menu a {
   color: #fff;
   font-size: 15px;
@@ -139,6 +139,7 @@
 }
 .sidebar.close .nav-links li .sub-menu {
   position: absolute;
+  width: 260px;
   left: 100%;
   top: -10px;
   margin-top: 0;
@@ -166,7 +167,7 @@
 .sidebar .nav-links li .sub-menu.blank {
   opacity: 1;
   pointer-events: auto;
-  padding: 3px 20px 6px 16px;
+  /* padding: 3px 20px 6px 16px; */
   opacity: 0;
   pointer-events: none;
 }

@@ -77,7 +77,7 @@
                     <div class="col">
                         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
                             <button type="button" class="btn btn-primary">Add</button>
-                            <button type="button" class="btn btn-danger">Reset</button>
+                            <button type="button" class="btn btn-secondary">Reset</button>
                           </div>
                     </div>
                     <div class="col-3">
