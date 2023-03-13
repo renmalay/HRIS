@@ -14,7 +14,7 @@ $(document).ready(function(){
                 return pageName = s;
             }
         })
-
+        $('#pageName').css('display','none');
         if(sessionStorage.getItem('tabToggled')){
             $('.insideNavs').each(function(){
                 if($(this).text() == sessionStorage.getItem('tabToggled')){

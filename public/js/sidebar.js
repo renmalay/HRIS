@@ -21,9 +21,11 @@ $(document).on('click', '.bx-menu', function(){
   // console.log('hello');
   if($('.sidebar').hasClass('close')){
     $('.sidebar').removeClass('close');
+    $('#pageName').css('display','none');
   }
   else{
     $('.sidebar').addClass('close');
+    $('#pageName').css('display','block');
   }
 });
 
