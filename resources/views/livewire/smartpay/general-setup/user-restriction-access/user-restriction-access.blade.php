@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <hr>
+            <hr class="border border-primary border-3 opacity-75">
 
             <div class="row pt-2">
                 <div class="col">

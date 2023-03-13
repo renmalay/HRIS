@@ -41,7 +41,7 @@
         <section class="home-section">
             <div class="home-content">
                 <i class='bx bx-menu'></i>
-                <span id="pageName"></span>
+                <h3 class="fw-bold" id="pageName"></h3>
             </div>
             <main class="px-3">
                 @yield('content')

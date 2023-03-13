@@ -13,7 +13,7 @@
                 <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-                <li class="forPageName"><a class="link_name">SmartPay Admin</a></li>
+                <li class=""><a class="link_name">SmartPay Admin</a></li>
                 <li class="forPageName"><a href="/smartpay/general-setup">General Setup</a></li>
                 <li class="forPageName"><a href="/smartpay/hris-setup">HRIS Setup</a></li>
                 <li class="forPageName"><a href="#">Timekeeping Setup</a></li>
@@ -31,7 +31,7 @@
                 <i class='bx bxs-chevron-down arrow'></i>
             </div>
             <ul class="sub-menu">
-                <li class="forPageName"><a class="link_name">HRIS</a></li>
+                <li class=""><a class="link_name">HRIS</a></li>
                 <li class="forPageName"><a href="/hris/personal-information">Personal Information</a></li>
                 <li class="forPageName"><a href="#">Upload Earnings and Deduction</a></li>
                 <li class="forPageName"><a href="#">Rate Change</a></li>

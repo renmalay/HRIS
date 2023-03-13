@@ -6,6 +6,7 @@ $(document).ready(function(){
         $('.forPageName').each(function(){
             sideBarNames.push($(this).text());
         });
+        // console.log(sideBarNames);
         sideBarNames.map((s)=>{
             const comaprison = s.toLowerCase().replaceAll(' ','-');
             if(window.location.pathname.includes(comaprison))

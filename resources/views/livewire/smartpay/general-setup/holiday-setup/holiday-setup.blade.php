@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <hr>    
+            <hr class="border border-primary border-3 opacity-75">  
 
             <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">

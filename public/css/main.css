@@ -128,7 +128,7 @@
 .sidebar .nav-links li .sub-menu a {
   color: #fff;
   font-size: 15px;
-  padding: 5px 0;
+  padding: 5px 10px;
   /* white-space: nowrap; */
   opacity: 0.6;
   transition: all 0.3s ease;
@@ -410,4 +410,9 @@ button {
 
 .forPageNameBg{
   background: #144272;
+}
+
+
+label {
+  font-weight: bold;
 }
