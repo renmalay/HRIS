@@ -21,19 +21,7 @@
                                     Name
                                 </th>
                                 <th>
-                                    Tagging
-                                </th>
-                                <th>
-                                    Number of Months
-                                </th>
-                                <th>
-                                    Interest
-                                </th>
-                                <th>
-                                    GL Accounts
-                                </th>
-                                <th>
-                                    SL
+                                    Assigned
                                 </th>
                             </tr>
                         </thead>
@@ -42,16 +30,8 @@
                                 <td>1</td>
                                 <td>1</td>
                                 <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>2</td>
                                 <td>2</td>
                                 <td>2</td>
                                 <td>2</td>

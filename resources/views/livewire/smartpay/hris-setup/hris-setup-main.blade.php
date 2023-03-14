@@ -67,9 +67,9 @@
                                 data-bs-target="#v-pills-rate-reason" type="button" role="tab"
                                 aria-controls="v-pills-rate-reason" aria-selected="true">Rate Reason</button>
 
-                            <button class="insideNavs nav-link text-start" id="v-pills-emplyee-status-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-emplyee-status" type="button" role="tab"
-                                aria-controls="v-pills-emplyee-status" aria-selected="true">Employee Status</button>
+                            <button class="insideNavs nav-link text-start" id="v-pills-employment-status-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-employment-status" type="button" role="tab"
+                                aria-controls="v-pills-employment-status" aria-selected="true">Employmet Status</button>
 
                             <button class="insideNavs nav-link text-start" id="v-pills-recurring-deduction-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-recurring-deduction" type="button" role="tab"
@@ -186,10 +186,10 @@
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-employee-status" role="tabpanel"
-                                aria-labelledby="v-pills-employee-status-tab" tabindex="0">
+                            <div class="tab-pane fade" id="v-pills-employment-status" role="tabpanel"
+                                aria-labelledby="v-pills-employment-status-tab" tabindex="0">
                                 <div class="px-2">
-                                    @livewire('smartpay.hris-setup.employee-status.employee-status')
+                                    @livewire('smartpay.hris-setup.employment-status.employment-status')
                                 </div>
                             </div>
 
